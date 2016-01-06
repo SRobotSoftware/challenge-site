@@ -6,7 +6,7 @@ body {
     height: 100px;
     line-height: 100px;
     text-align: center;
-    background-color: navy;
+    background-color: darkblue;
     border: 3px solid black;
     font-size: 40pt;
 }
@@ -14,7 +14,6 @@ body {
 .header_content {
     display: inline-block;
     vertical-align: middle;
-    line-height: normal;
     color: #fff;
 }
 .main {
@@ -24,14 +23,20 @@ body {
     color: #000;
     float: left;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 150px;
+}
+.article_title {
+    padding-top: 40px;
+    border-top: 20px solid lightseagreen;
 }
 .sidebar {
     float: left;
     box-sizing: border-box;
     padding-left: 20px;
-    width: 250px;
+    width: 230px;
     color: #fff;
+    margin-top: 50px;
+    margin-right: 20px;
 }
 .sidebar_item {
     color: #000;
@@ -43,9 +48,11 @@ body {
     font-size: 10pt;
 }
 .footer {
-    background-color: navy;
+    background-color: darkblue;
     border: 3px solid black;
     height: 100px;
     width: 100%;
     clear: both;
+    position: absolute;
+    bottom: 0px;
 }
