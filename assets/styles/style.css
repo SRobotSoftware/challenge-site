@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: navy;
+    border: 3px solid black;
+    font-size: 40pt;
+}
+
+.header_content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: #fff;
+}
+.main {
+    margin-right: 250px;
+}
+.main_item {
+    color: #000;
+    float: left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.sidebar {
+    float: left;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 250px;
+    color: #fff;
+}
+.sidebar_item {
+    color: #000;
+}
+.sidebar_item_title {
+    font-size: 16pt;
+}
+.sidebar_item_content {
+    font-size: 10pt;
+}
+.footer {
+    background-color: navy;
+    border: 3px solid black;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
