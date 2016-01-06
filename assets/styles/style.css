@@ -6,14 +6,14 @@ body {
     margin-right: 10%;
     margin-left: 10%;
     background-color: #fff;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 .header {
     width: 100%;
     height: 100px;
     line-height: 100px;
     text-align: center;
-    background-color: darkblue;
+    background-color: #0000ab;
     border: 3px solid black;
     font-size: 40pt;
 }
@@ -23,44 +23,60 @@ body {
     vertical-align: middle;
     color: #fff;
 }
-.content {
-    border: 1px solid pink;
+.content_container {
+    min-height: 400px;
 }
-.article_container {
+.content_article_container {
     display: inline-block;
     color: #000;
-    width: 70%;
-    border: 1px solid black;
+    width: 40%;
     padding-top: 2%;
-    /*HERE IS THE ISSUE
-    padding-right: 5%;*/
+    margin-left: 25%;
+    margin-right: 10%
 }
-.article_title {
-    border-top: 20px solid lightseagreen;
+.content_article_title {
+    border-top: 20px solid paleturquoise;
     text-align: center;
     font-size: 30px;
+    padding-top:10px;
 }
-.article {
-
+.content_article_content {
+    padding: 20px;
 }
-.sidebar_container {
+.content_sidebar_container {
     display: inline-block;
-    border: 1px solid red;
-    width: 28%;
+    width: 24%;
+    vertical-align: top;
+    padding-top: 80px;
 }
-.sidebar_item {
+.content_sidebar_item {
     color: #000;
 }
-.sidebar_item_title {
+.content_sidebar_item_title {
     font-size: 16pt;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.sidebar_item_content {
+.content_sidebar_item_content {
     font-size: 10pt;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .footer {
-    background-color: darkblue;
+    background-color: #0000ab;
     border: 3px solid black;
     height: 100px;
     width: 100%;
     bottom: 0px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightsteelblue;
+    text-align: center;
+    vertical-align: center;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
 }
