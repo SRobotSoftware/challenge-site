@@ -52,6 +52,12 @@ body {
 .content_sidebar_item {
     color: #000;
 }
+.content_sidebar_item:hover {
+    background-color: magenta;
+    color: aqua;
+    margin: 40px 0;
+    border: 4px dotted cornsilk;
+}
 .content_sidebar_item_title {
     font-size: 16pt;
     padding-left: 25px;
