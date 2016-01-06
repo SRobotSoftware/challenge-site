@@ -1,5 +1,8 @@
 body {
     font-family: sans-serif;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #ddd;
 }
 .header {
     width: 100%;
@@ -16,18 +19,27 @@ body {
     vertical-align: middle;
     color: #fff;
 }
-.main {
+.content {
     margin-right: 250px;
 }
-.main_item {
+.article_container {
     color: #000;
     float: left;
-    margin-left: 200px;
-    margin-right: 150px;
+    margin-left: 20%;
+    margin-right: 10%;
 }
 .article_title {
-    padding-top: 40px;
+    padding-top: 20px;
     border-top: 20px solid lightseagreen;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.article {
+    padding-right: 30px;
+    padding-left:30px;
+    margin-bottom: 20px;
 }
 .sidebar {
     float: left;
@@ -53,6 +65,5 @@ body {
     height: 100px;
     width: 100%;
     clear: both;
-    position: absolute;
     bottom: 0px;
 }
