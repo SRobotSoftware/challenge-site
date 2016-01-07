@@ -3,76 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Challenge site</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 
 <body>
 
-    <div class="site_container">
+    <!--SITE CONTAINER-->
+    <div class="container-fluid lightbg">
 
-        <header class="header">
-
-            <span class="header_content">Hey there I have a cool site</span>
-
-        </header>
-
-        <div class="content_container">
-
-            <div class="content_article_container">
-
-                <div class="content_article_title">Why Designers are important!</div>
-                <div class="content_article_content">
-
-                    <div><b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Minus incidunt iure placeat reiciendis repudiandae animi expedita iste est cupiditate, et blanditiis, odit, tempore natus at doloremque sit non distinctio aliquam vitae. Quasi, vero! Tenetur quasi accusantium, harum dicta voluptate, quidem dolor nemo minima illum, molestias molestiae, nostrum architecto velit! Cupiditate?</div>
-                    <div><b>Lorem ipsum</b> quisquam molestias eos. Delectus, ipsum quasi? Quasi in dolores itaque veritatis accusantium, numquam aliquid nam eius ipsam possimus tenetur asperiores consequatur ad officia nostrum, ab repellat ipsum assumenda voluptas sint laborum soluta. Fugiat doloribus quia error, ea? Inventore similique commodi hic asperiores animi, suscipit eos alias debitis, illo.</div>
-
-
-                    <!--CLOSE CONTENT_ARTICLE_CONTENT-->
-                </div>
-                
-                <div class="content_article_title">Another title!</div>
-                <div class="content_article_content">
-
-                    <div><b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Minus incidunt iure placeat reiciendis repudiandae animi expedita iste est cupiditate, et blanditiis, odit, tempore natus at doloremque sit non distinctio aliquam vitae. Quasi, vero! Tenetur quasi accusantium, harum dicta voluptate, quidem dolor nemo minima illum, molestias molestiae, nostrum architecto velit! Cupiditate?</div>
-                    <div><b>Lorem ipsum</b> quisquam molestias eos. Delectus, ipsum quasi? Quasi in dolores itaque veritatis accusantium, numquam aliquid nam eius ipsam possimus tenetur asperiores consequatur ad officia nostrum, ab repellat ipsum assumenda voluptas sint laborum soluta. Fugiat doloribus quia error, ea? Inventore similique commodi hic asperiores animi, suscipit eos alias debitis, illo.</div>
-
-
-                    <!--CLOSE CONTENT_ARTICLE_CONTENT-->
-                </div>
-                
-                <!--CLOSE CONTENT_ARTICLE_CONTAINER-->
+        <!--HEADER-->
+        <div class="row site-header">
+            <div class="container-fluid vcenter">
+                Hey there I have a cool site
             </div>
+            <!--CLOSE HEADER-->
+        </div>
 
-            <div class="content_sidebar_container">
+        <!--CONTENT CONTAINER-->
+        <div class="row">
+            <div class="container my-content-container">
 
-                <div class="content_sidebar_item">
-                    <img src="http://giskard.us/img/cuttlefish.jpg" alt="Image Here" width="200" height="100"><br />
-                    <div class="content_sidebar_item_title">Cuttlefish?</div>
-                    <div class="content_sidebar_item_content"><p><b>Friend or Foe?</b> Click me to read more all about it....</p></div>
+                <!--ARTICLE CONTAINER-->
+                <div class="col-sm-6 col-sm-offset-2">
+                    <div class="row">
+
+                        <!--ARTICLE 1-->
+                        <div name="article">
+                            <div class="article-header">Why Designers are important!</div>
+                            <div class="article-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+                                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                Ipsum.
+                                <br />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                                a galley of type and scrambled it to make a type specimen book. It has survived not only
+                                five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                It was popularised in the 1960s with the release of Letraset sheets containing</div>
+                        </div>
+
+                    </div>
+                    <!--CLOSE ARTICLE CONTAINER-->
                 </div>
-                
-                <div class="content_sidebar_item">
-                    <img src="" alt="Image Here" width="200" height="100"><br />
-                    <div class="content_sidebar_item_title">Another Article</div>
-                    <div class="content_sidebar_item_content"><p><b>Lorem Ipsum</b> Is simply dummy text of the printing and typesetting industry....</p></div>
-                </div>
-                
-                <div class="content_sidebar_item">
-                    <img src="" alt="Image Here" width="200" height="100"><br />
-                    <div class="content_sidebar_item_title">Another Article</div>
-                    <div class="content_sidebar_item_content"><p><b>Lorem Ipsum</b> Is simply dummy text of the printing and typesetting industry....</p></div>
-                </div>
 
+                <!--SIDEBAR CONTAINER-->
+                <div class="col-sm-2 col-sm-offset-1">
+                    <div class="row my-sidebar">
 
-                <!--CLOSE CONTENT_SIDEBAR_CONTAINER-->
+                        <!--ITEM 1-->
+                        <dl name="item">
+                            <img class="my-img" width="200" height="100" alt="Image Here"></img>
+                            <dt class="item-header">Another Article</dt>
+                            <dd class="item-content"><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry....</dd>
+                        </dl>
+
+                    </div>
+                </div>
+                <!--CLOSE SIDEBAR CONTAINER-->
+
             </div>
-
             <!--CLOSE CONTENT CONTAINER-->
         </div>
 
-        <footer class="footer">
-
-        </footer>
+        <!--FOOTER-->
+        <div class="row site-header"></div>
 
         <!--CLOSE SITE CONTAINER-->
     </div>
