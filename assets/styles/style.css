@@ -20,6 +20,10 @@ body {
     border: 3px solid black;
     height: 100px;
 }
+.site-header-sm {
+    font-size: 20pt;
+    line-height: 70px;
+}
 .my-content-container {
     height: 600px;
     padding-top: 40px;
