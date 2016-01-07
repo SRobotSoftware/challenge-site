@@ -1,88 +1,57 @@
 body {
-    background-color: #ddd;
+    background-color: #222;
 }
-.site_container {
-    font-family: sans-serif;
-    margin-right: 10%;
-    margin-left: 10%;
-    background-color: #fff;
-    /*border: 1px solid green;*/
+.darkbg {
+    background-color: #555;
 }
-.header {
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    background-color: #1C4587;
-    border: 3px solid black;
-    font-size: 40pt;
+.lightbg {
+    background-color: #eee;
 }
 
-.header_content {
-    display: inline-block;
-    vertical-align: middle;
-    color: #fff;
-}
-.content_container {
-    min-height: 400px;
-}
-.content_article_container {
-    display: inline-block;
-    color: #000;
-    width: 40%;
-    padding-top: 2%;
-    margin-left: 25%;
-    margin-right: 10%
-}
-.content_article_title {
-    border-top: 20px solid #CFE2F3;
+.vcenter {
     text-align: center;
-    font-size: 30px;
-    padding-top:10px;
+    padding-top: 10px;
 }
-.content_article_content {
-    padding: 20px;
-}
-.content_sidebar_container {
-    display: inline-block;
-    width: 24%;
-    vertical-align: top;
-    padding-top: 80px;
-}
-.content_sidebar_item {
-    color: #000;
-}
-.content_sidebar_item:hover {
-    background-color: magenta;
-    color: aqua;
-    margin: 40px 0;
-    border: 4px dotted cornsilk;
-}
-.content_sidebar_item_title {
-    font-size: 16pt;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.content_sidebar_item_content {
-    font-size: 10pt;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.footer {
+
+.site-header {
     background-color: #1C4587;
+    color: #eee;
+    font-size: 40pt;
     border: 3px solid black;
     height: 100px;
-    width: 100%;
-    bottom: 0px;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #4A86E8;
+.my-content-container {
+    height: 600px;
+    padding-top: 40px;
+}
+.article-header {
+    border-top: 20px solid #CFE2F3;
+    font-size: 25pt;
     text-align: center;
-    vertical-align: center;
-    color: #fff;
+}
+.article-content {
+    padding: 10px 30px;
+    font-size: 12pt;
+}
+.my-sidebar {
+    margin-top: 50px;
+}
+.item-header {
+    margin-top: 10px;
+    font-size: 14pt;
+    padding: 0 10px;
+}
+.item-content {
+    font-size: 8pt;
+    padding: 0 10px;
+}
+
+.my-img {
+    background-color: #4A86E8;
+    padding: auto;
+    color: #eee;
     font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
     line-height: 100px;
 }
